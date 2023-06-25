@@ -1,0 +1,62 @@
+.navbar
+{
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  background-color: #1565C0 ;
+  padding: 15px 200px;
+}
+body{
+  margin: 0;
+}
+.navbar button{
+  color: white;
+}
+
+.payment-container
+{
+  padding: 3% 20%;
+}
+
+.search-container
+{
+  display: flex;
+  height: fit-content;
+}
+
+.filter-buttons
+{
+  display: flex;
+  gap: 10px;
+}
+
+.payment-card
+{
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding:3%;
+  display: flex;
+  justify-content:flex-start;
+  gap: 20px;
+}
+.payments
+{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.payment-details
+{
+  display:flex;
+  flex-direction: column;
+}
+
+.payment-details h4
+{
+  margin:0;
+}
+
+.payment-details p
+{
+  margin:0;
+}
